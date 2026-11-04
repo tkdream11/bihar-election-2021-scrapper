@@ -1,0 +1,503 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>
+	:: State Election Commission ::
+</title><meta name="robots" content="noindex, nofollow"><meta name="description"><meta name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon"><link href="img/favicon.ico" rel="apple-touch-icon">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"><link href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                /*margin-left:119px;*/
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+
+            .topnav .icon {
+                display: none;
+            }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+                .topnav.responsive .icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script>
+        function ShowMessage(message, messagetype, url) {
+            var toTitleCase = function (str) {
+                str = str.toLowerCase().split(' ');
+                for (var i = 0; i < str.length; i++) {
+                    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+                }
+                return str.join(' ');
+            };
+            if (url == "") {
+                url = "javascript:;";
+            }
+            switch (messagetype) {
+                case 'success':
+                    swal({
+                        title: toTitleCase(messagetype) + " !",
+                        text: message,
+                        icon: messagetype,
+                        button: "OK",
+                    }).then(function () {
+                        //window.parent.location.href = url;
+                        window.open(url, '_blank');
+                    });
+
+                    break;
+                case 'Error':
+                    swal({
+                        title: toTitleCase(messagetype) + " !",
+                        text: message,
+                        icon: messagetype,
+                        button: "OK",
+                    }).then(function () {
+                        window.location = url;
+                    });
+                    break;
+                case 'Warning':
+                    swal({
+                        title: toTitleCase(messagetype) + " !",
+                        text: message,
+                        icon: messagetype,
+                        button: "OK",
+                    }).then(function () {
+                        window.location = url;
+                    });
+                    break;
+                default:
+                    swal({
+                        title: toTitleCase(messagetype) + " !",
+                        text: message,
+                        icon: messagetype,
+                        button: "OK",
+                    }).then(function () {
+                        window.location = url;
+                    });
+            }
+
+        };
+
+    </script>
+    <style>
+        .underline {
+            text-decoration-line: underline;
+            text-decoration-style: dotted;
+        }
+
+        .label {
+            font-size: 10pt;
+            font-weight: bold;
+            font-family: Arial;
+        }
+
+        .contents {
+            border: 1px dotted black;
+            padding: 5px;
+            width: 300px;
+        }
+        .swal-text {
+            font-size: 25px;
+        }
+        .name {
+            color: #18B5F0;
+        }
+
+        .left {
+            float: left;
+            width: 50px;
+            height: 50px;
+        }
+
+        .right {
+            margin-left: 60px;
+            line-height: 50px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .noborder, .noborder td {
+            border: none;
+        }
+
+        tr, th, td {
+            text-align: center;
+        }
+        @media print {
+            #printMe{
+                padding-top:20px;
+            }
+            .no-print {
+                display:none;
+            }
+            h3{
+                text-align:center !important;
+            }
+            #no-scroll{
+                overflow:hidden !important;
+            }
+        }
+    </style>
+<link href="Images/SEC.png" type="image/x-icon" rel="icon"></head>
+<body>
+    <form name="aspnetForm" method="post" action="./Result7.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/claim-objection/WebResource.axd?d=6WriPs6rzZGQTRvwO_Y0n5NTXdF_-RDTZOQnRUKbty-Bl-FsxWhoR7j5a0SDpxmybXbrOmMb3P-mGnpTWRAtTg062-K0b96zC5rkVTn0M-A1&amp;t=639205854607559479" type="text/javascript"></script>
+
+
+<script src="/claim-objection/ScriptResource.axd?d=ujdnuoR1o_1GjyOthi2U1gWAK6_xblGmRqinrKPMZC4Os_mLUTH1z7Llo08UyQWCNMi8E9-idskxyV6oja28ntOTOfOWjejXBZPq37b7oCuinenaLONCyeUKss7_UQB6MXitauMn40B2uZKW2EVYBpzoJIoXWU1pKokY-Go7lNFaLbwOW1hGVo-hDxhClWDW0&amp;t=ffffffffe6d5a9ac" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/claim-objection/ScriptResource.axd?d=HUr7OJLP4fFsly1yRUnejDckcbClgDMa9MVxg-X2rLEst8alUpL3BhX7gIaTbGRobon8x_770nC8UcbtM_uFIWfTMwS0FC1CjyMkClxBt_io2-OXYgZJKtDNuxzPIxSd8R7JH4cGLvi5ic1uo3qM3kJlgtyU-IFyKsIU8yR1R4ucZkfU0eI5pj_lygqCM3CX0&amp;t=ffffffffe6d5a9ac" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FE2C2C0A">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAEidtOU+94SChlIZfUAmH3ocEiuqxdJ2kGz6Lp/rpUK0MBlqvKAquNAVRGnNOM9yNGFsJQ+s1mr1wjLeBWY3ykvCH+3+fH3Zbb371giRRjDZCe73SQ4BPeu1r80Omu4tuf5EznzHCqf17X4oSZCfl73n9tzVU7CSd6wiTuJfIB0wsa3M8YBtiii6dlMEHcYxfMOIwvtUD0fIycaqxH6XRFabeOdIM0UzFcCkAO5eTn9xunXRm7h9/wLK0dUm2GF0NmsM7gvlGTDbSks8oBgy4jljBMQjUb61y0CmnVPTBxfC44CWeYolDDAUYWLOcJuCznO3VlFNcj+BUIk2ytip/FoSDqYzvuJ46su0ZnjrEG4250dkjbkJr5LFVR+olddMNUMvg4cFLOWwWYSGpzKUt8P0bw7kveaMI6iExeYjRJIgmaV8XMqw5peZRvQC4FywVWfYsbJMAWAxi9P0o/tyQAjUhqbVKBbLFL3Z5ISf/XNsdoXTc36tY+Voz+GRroC6J9O1v3OQb2Ni2GU0au+6PeMrPyoyAXItNbz6+HzgOuXWz1oK5Mq2Q/P+97wx3Sq0jW5HaMriYy8Mtt6wjFPG+8AKCE0A8MZZyaz6Z8F/gz72WowJBIRA5SvkF9uMt+XB5z6LNo3e7TSP7Rrt1PdZc/u8eNUyMYAHLWeeDLRcgWOxITRA8t7TRuUI+hh4XJ+F8yIKotZC1uT7Yn1fbJ5lzB720EXTD9ink0dMa4tkV63QL724fqlZbtifghlFTtludFvnE9MrFlE+mU7Ah3maJs+A9NR/LLOlqmjWiM2qxAoq9m9sLuzBb8k7SVsFcw/UaQMJ85Po0QNWxealANfI1qNOjfSNLP3g2NaulgpEgBWg4J95lcgDlice7OBcgnlE6ldeeP0wviHvhYlnrtl21JwMkALicAx+pvrJLVcCuCWNWSFggAj2EaZ58GZnAf92+Td3KHEs9/qHV7pFacXHChIt/eDDjrRXaifxT7Pcy8cUo6En4tKQcYa5+cozZbHf3n/h5krsTYYMz9V0H/RCjzXPmHUyfpLatznxhCqyisB5H298PUfLPeCDo/Sq989dJvLS0qfAiUVe5JoHcKVCBJgDCSvuESBqET63mbddMIP9hC+YFljwQXXvkKYUahLisyGMEbw8M1K4zQC9qsIRiEK4vZvCuvRo8avo+sRpwTRznovr9pfBXFBamPj20BDzYOmKspNtDLMSwBVS34UEsIOU8Bojw7cnKO3x3tqXlXuxi/82kqtyEr26y0l28+s5eGb1MBwVR+eAldoTp7c/C/fnbaz0lPVdb3D8SaoaUyi1H1H9CqomgakMWFiVquK+5+M+ZmAvnxCdrmxA9Tf7IHyD+jnxAMpex44SMRYz9g8WsO2vtffOCLNvr52WXrDdDQLMKUT5ui6BRcq1CX4a8YjfwAer3KcjHH4vUMhWB7ElPBgERNdnX0fzuTbBH2wqRJWfzI6qCEOf6skKaqJCQc8T2sH4LbLrgv9oBctbM72xpxj7lX/5w5QcDXCGH6aZrRrQFDk5qfH3f2Ze5m4Br+D2dbrFU/MSosXQNxYevdJn7A==">
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sm1', 'aspnetForm', ['tctl00$ContentPlaceHolder1$ctl00',''], [], ['ctl00$ContentPlaceHolder1$btnFilter',''], 90, 'ctl00');
+//]]>
+</script>
+
+        <div>
+            <div style="background-color: #002E5B;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../img/sec-light-img.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <br>
+                        <div id="ctl00_myTopnav" class="topnav">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="home"><i class="fas fa-home"></i>&nbsp;Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Result For Phase 7</li>
+        </ol>
+    </nav>
+    <div class="container-fluid">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$hfDist" id="ctl00_ContentPlaceHolder1_hfDist">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$hfBlock" id="ctl00_ContentPlaceHolder1_hfBlock">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$hfUser" id="ctl00_ContentPlaceHolder1_hfUser">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$hfRole" id="ctl00_ContentPlaceHolder1_hfRole">
+        <div class="card border-primary mb-3">
+            <div class="card-body">
+                <div class="panel-body  text-primary">
+                    <div id="ctl00_ContentPlaceHolder1_ctl00">
+	
+                            <div id="ctl00_ContentPlaceHolder1_TopView" class="row">
+                                <div class="col-md-3 nopadding">
+                                    <div class="form-group">
+                                        <label>पद का नाम [Post Name]<span style="color: red">&nbsp;*</span></label>
+                                        <select name="ctl00$ContentPlaceHolder1$ddl_Post" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddl_Post\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddl_Post" class="form-control" style="width:100%;">
+		<option value="0">Select</option>
+		<option value="1">ग्राम पंचायत के सदस्य </option>
+		<option value="2">ग्राम कचहरी के पंच </option>
+		<option selected="selected" value="3">ग्राम पंचायत के मुखिया</option>
+		<option value="4">ग्राम कचहरी के सरपंच </option>
+		<option value="5">पंचायत समिति के सदस्य </option>
+		<option value="6">जिला परिषद्  के सदस्य </option>
+
+	</select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2 nopadding">
+                                    <div class="form-group">
+                                        <label>जिला <span style="color: red">&nbsp;*</span></label>
+                                        <select name="ctl00$ContentPlaceHolder1$ddlDistrict" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlDistrict\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddlDistrict" class="form-control" style="width:100%;">
+		<option value="0">Select</option>
+		<option value="7">अररिया</option>
+		<option value="35">औरंगाबाद</option>
+		<option value="10">कटिहार</option>
+		<option value="31">कैमूर (भभुआ)</option>
+		<option value="8">किशनगंज</option>
+		<option value="21">खगड़िया</option>
+		<option value="36">गया</option>
+		<option value="15">गोपालगंज</option>
+		<option value="38">जमुई</option>
+		<option value="34">जहानाबाद</option>
+		<option value="13">दरभंगा</option>
+		<option value="37">नवादा</option>
+		<option value="27">नालन्दा</option>
+		<option value="28">पटना</option>
+		<option value="9">पूर्णियां</option>
+		<option value="2">पूर्वी चम्पारण</option>
+		<option value="1">पश्चिम चम्पारण</option>
+		<option value="30">बक्सर</option>
+		<option value="20">बेगूसराय</option>
+		<option value="23">बांका</option>
+		<option value="22">भागलपुर</option>
+		<option value="29">भोजपुर</option>
+		<option value="24">मुंगेर</option>
+		<option value="14">मुजफ्फरपुर</option>
+		<option value="11">मधेपुरा</option>
+		<option selected="selected" value="5">मधुबनी</option>
+		<option value="32">रोहतास</option>
+		<option value="25">लखीसराय</option>
+		<option value="18">वैशाली</option>
+		<option value="26">शेखपुरा</option>
+		<option value="3">शिवहर</option>
+		<option value="6">सुपौल</option>
+		<option value="19">समस्तीपुर</option>
+		<option value="12">सहरसा</option>
+		<option value="17">सारण</option>
+		<option value="16">सिवान</option>
+		<option value="4">सीतामढ़ी</option>
+
+	</select>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 nopadding">
+                                    <div class="form-group">
+                                        <label>प्रखंड<span style="color: red">&nbsp;*</span></label>
+                                        <select name="ctl00$ContentPlaceHolder1$ddlBlock" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlBlock\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddlBlock" class="form-control" style="width:100%;">
+		<option value="0">Select</option>
+		<option selected="selected" value="1">मधवापुर</option>
+		<option value="2">हरलाखी</option>
+
+	</select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 nopadding">
+                                    
+                                    <div id="ctl00_ContentPlaceHolder1_DivPanchayat" class="form-group">
+                                        <label id="ctl00_ContentPlaceHolder1_lbl_Panchayat_DllHeading1">पंचायत का नाम<span style="color: red">&nbsp;*</span></label>
+                                        <select name="ctl00$ContentPlaceHolder1$ddlPanchayat" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlPanchayat\',\'\')', 0)" id="ctl00_ContentPlaceHolder1_ddlPanchayat" class="form-control" style="width:100%;">
+		<option value="0">Select</option>
+		<option selected="selected" value="050010008">उत्तरा</option>
+		<option value="050010011">तरैया</option>
+		<option value="050010012">पिरोखर</option>
+		<option value="050010009">पिहवाडा</option>
+		<option value="050010004">बलवा</option>
+		<option value="050010002">बासुकी बिहारी उत्तरी</option>
+		<option value="050010003">बासुकी बिहारी दक्षिण</option>
+		<option value="050010005">मुखियापट्टी</option>
+		<option value="050010001">मधवापुर</option>
+		<option value="050010013">विशनपुर</option>
+		<option value="050010010">सलेमपुर</option>
+		<option value="050010006">साहर उत्तरी</option>
+		<option value="050010007">साहर दक्षिणी</option>
+
+	</select>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-2 nopadding">
+                                    
+
+                                    
+                                </div>
+
+                                <div class="col-md-1 nopadding">
+                                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnFilter" value="Show" id="ctl00_ContentPlaceHolder1_btnFilter" class="btn btn-info" style="margin-top: 25px; width: 100%;">
+                                </div>
+                               
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                             <div class="col-md-2 nopadding">
+                                    
+                                </div>
+                            <div style="text-align: center" id="printMe">
+                                <h1 style="line-height: 40px; text-align: center;">बिहार पंचायत आम निर्वाचन 2021 </h1>
+                                <h3>Result</h3>
+                                <h5 style="float: right; margin-top: -4rem;">
+                                    <p style="font-size: 12pt" class="underline">पंचायत निर्वाचन </p>
+                                    </h5><h5></h5>
+                                    <div style="overflow-x: scroll;" id="no-scroll">
+                                        <div class="row">
+                                            <div class="col-md-12 text-right">
+                                                <a href="javascript:void(0)" class="btn btn-info btn-sm no-print" onclick="printDiv('printMe')">Print</a>
+                                            </div>
+                                        </div>
+                                        <div>
+		<table cellspacing="0" cellpadding="3" rules="all" border="1" id="ctl00_ContentPlaceHolder1_RPDetails" style="background-color:White;border-color:#CCCCCC;border-width:1px;border-style:None;width:100%;border-collapse:collapse;">
+			<tbody><tr style="color:White;background-color:#006699;font-weight:bold;">
+				<th scope="col">जिला</th><th scope="col">प्रखंड</th><th scope="col">पंचायत</th><th scope="col">पद</th><th scope="col">प्रत्याशी का नाम</th><th scope="col">कुल प्राप्त मत</th>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> अंजली देवी</td><td>115</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> गीता देवी</td><td>280</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> दुखनी देवी</td><td>384</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> रजिया देवी</td><td>281</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> राज कुमारी</td><td>558</td>
+			</tr><tr style="color:#000066;background-color: LightGreen; color: Black">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> रीता देवी (विजेता)</td><td>882</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> शिव दुलारी देवी</td><td>158</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> शिकिला देवी</td><td>124</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> शीला देवी</td><td>96</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> सम्तोलिया देवी</td><td>387</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> सिबरी देवी</td><td>85</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> सीमा कुमारी</td><td>501</td>
+			</tr><tr style="color:#000066;">
+				<td>मधुबनी</td><td>मधवापुर</td><td>उत्तरा</td><td>ग्राम पंचायत के मुखिया</td><td> सुधीरा कुमारी</td><td>539</td>
+			</tr><tr style="color:#000066;background-color: LightBlue; color: Black">
+				<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>कुल मत</td><td>4390</td>
+			</tr>
+		</tbody></table>
+	</div>
+                                    </div>
+                                
+                            </div>
+                        
+</div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function printDiv(divId) {
+            var printContents = document.getElementById(divId).innerHTML;
+            var originalContents = document.body.innerHTML;
+
+            document.body.innerHTML = printContents;
+
+            window.print();
+
+            document.body.innerHTML = originalContents;
+        }
+    </script>
+
+
+        </div>
+        <div class="tiny-footer">
+            <table style="background-color: midnightblue; width: 100%; text-align: center" border="1">
+                <tbody><tr>
+                    <td style="width: 100%;">
+                        <span class="pull-right" style="font-size: 12pt; color: white;">Designed &amp; Developed by : <a href="http:\\ser.org.in" target="_blank" onclick="showhide()" style="font-family: Tempus Sans ITC; font-size: 13pt; color: white; font-weight: bold;">Software Education Research Pvt Ltd.</a></span>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </form>
+
+
+</body></html>

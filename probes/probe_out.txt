@@ -1,0 +1,301 @@
+[
+ {
+  "tag": "input",
+  "id": "__EVENTTARGET",
+  "name": "__EVENTTARGET",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "__EVENTARGUMENT",
+  "name": "__EVENTARGUMENT",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "__LASTFOCUS",
+  "name": "__LASTFOCUS",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "__VIEWSTATE",
+  "name": "__VIEWSTATE",
+  "type": "hidden",
+  "value": "/wEPDwUJNDIwMzUwMTgzD2QWAmYPZBYCAgMPZBYCAgcPZBYCAgkPZBYCZg9k",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "__VIEWSTATEGENERATOR",
+  "name": "__VIEWSTATEGENERATOR",
+  "type": "hidden",
+  "value": "FE2C2C0A",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "__EVENTVALIDATION",
+  "name": "__EVENTVALIDATION",
+  "type": "hidden",
+  "value": "/wEdADeYTgeN25yu50oyjm2F8aNrEiuqxdJ2kGz6Lp/rpUK0MBlqvKAquNAV",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "ctl00_ContentPlaceHolder1_hfDist",
+  "name": "ctl00$ContentPlaceHolder1$hfDist",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "ctl00_ContentPlaceHolder1_hfBlock",
+  "name": "ctl00$ContentPlaceHolder1$hfBlock",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "ctl00_ContentPlaceHolder1_hfUser",
+  "name": "ctl00$ContentPlaceHolder1$hfUser",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "input",
+  "id": "ctl00_ContentPlaceHolder1_hfRole",
+  "name": "ctl00$ContentPlaceHolder1$hfRole",
+  "type": "hidden",
+  "value": "",
+  "opts": null
+ },
+ {
+  "tag": "select",
+  "id": "ctl00_ContentPlaceHolder1_ddl_Post",
+  "name": "ctl00$ContentPlaceHolder1$ddl_Post",
+  "type": "select-one",
+  "value": "0",
+  "opts": [
+   {
+    "v": "0",
+    "t": "Select"
+   },
+   {
+    "v": "1",
+    "t": "ग्राम पंचायत के सदस्य"
+   },
+   {
+    "v": "2",
+    "t": "ग्राम कचहरी के पंच"
+   },
+   {
+    "v": "3",
+    "t": "ग्राम पंचायत के मुखिया"
+   },
+   {
+    "v": "4",
+    "t": "ग्राम कचहरी के सरपंच"
+   },
+   {
+    "v": "5",
+    "t": "पंचायत समिति के सदस्य"
+   },
+   {
+    "v": "6",
+    "t": "जिला परिषद् के सदस्य"
+   }
+  ]
+ },
+ {
+  "tag": "select",
+  "id": "ctl00_ContentPlaceHolder1_ddlDistrict",
+  "name": "ctl00$ContentPlaceHolder1$ddlDistrict",
+  "type": "select-one",
+  "value": "0",
+  "opts": [
+   {
+    "v": "0",
+    "t": "Select"
+   },
+   {
+    "v": "7",
+    "t": "अररिया"
+   },
+   {
+    "v": "35",
+    "t": "औरंगाबाद"
+   },
+   {
+    "v": "10",
+    "t": "कटिहार"
+   },
+   {
+    "v": "31",
+    "t": "कैमूर (भभुआ)"
+   },
+   {
+    "v": "8",
+    "t": "किशनगंज"
+   },
+   {
+    "v": "21",
+    "t": "खगड़िया"
+   },
+   {
+    "v": "36",
+    "t": "गया"
+   },
+   {
+    "v": "15",
+    "t": "गोपालगंज"
+   },
+   {
+    "v": "38",
+    "t": "जमुई"
+   },
+   {
+    "v": "34",
+    "t": "जहानाबाद"
+   },
+   {
+    "v": "13",
+    "t": "दरभंगा"
+   },
+   {
+    "v": "37",
+    "t": "नवादा"
+   },
+   {
+    "v": "27",
+    "t": "नालन्दा"
+   },
+   {
+    "v": "28",
+    "t": "पटना"
+   },
+   {
+    "v": "9",
+    "t": "पूर्णियां"
+   },
+   {
+    "v": "2",
+    "t": "पूर्वी चम्पारण"
+   },
+   {
+    "v": "1",
+    "t": "पश्चिम चम्पारण"
+   },
+   {
+    "v": "30",
+    "t": "बक्सर"
+   },
+   {
+    "v": "20",
+    "t": "बेगूसराय"
+   },
+   {
+    "v": "23",
+    "t": "बांका"
+   },
+   {
+    "v": "22",
+    "t": "भागलपुर"
+   },
+   {
+    "v": "29",
+    "t": "भोजपुर"
+   },
+   {
+    "v": "24",
+    "t": "मुंगेर"
+   },
+   {
+    "v": "14",
+    "t": "मुजफ्फरपुर"
+   },
+   {
+    "v": "11",
+    "t": "मधेपुरा"
+   },
+   {
+    "v": "5",
+    "t": "मधुबनी"
+   },
+   {
+    "v": "32",
+    "t": "रोहतास"
+   },
+   {
+    "v": "25",
+    "t": "लखीसराय"
+   },
+   {
+    "v": "18",
+    "t": "वैशाली"
+   },
+   {
+    "v": "26",
+    "t": "शेखपुरा"
+   },
+   {
+    "v": "3",
+    "t": "शिवहर"
+   },
+   {
+    "v": "6",
+    "t": "सुपौल"
+   },
+   {
+    "v": "19",
+    "t": "समस्तीपुर"
+   },
+   {
+    "v": "12",
+    "t": "सहरसा"
+   },
+   {
+    "v": "17",
+    "t": "सारण"
+   },
+   {
+    "v": "16",
+    "t": "सिवान"
+   },
+   {
+    "v": "4",
+    "t": "सीतामढ़ी"
+   }
+  ]
+ },
+ {
+  "tag": "select",
+  "id": "ctl00_ContentPlaceHolder1_ddlBlock",
+  "name": "ctl00$ContentPlaceHolder1$ddlBlock",
+  "type": "select-one",
+  "value": "-1",
+  "opts": [
+   {
+    "v": "-1",
+    "t": "--select--"
+   }
+  ]
+ },
+ {
+  "tag": "input",
+  "id": "ctl00_ContentPlaceHolder1_btnFilter",
+  "name": "ctl00$ContentPlaceHolder1$btnFilter",
+  "type": "submit",
+  "value": "Show",
+  "opts": null
+ }
+]
